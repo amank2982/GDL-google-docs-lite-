@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GDL.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+589b41848e75ebcec59e96c50cd3ef1ac76ae535")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef7de771c3736b3e8e92d1ba5d34b91130e4900c")]
 [assembly: System.Reflection.AssemblyProductAttribute("GDL.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GDL.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

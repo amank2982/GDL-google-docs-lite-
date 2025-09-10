@@ -4,10 +4,10 @@ namespace GDL.Api.Hubs
 {
     public class DocumentHub : Hub
     {
-        // Just a test method
-        public async Task SendMessage(string user, string message)
+        // Broadcast document changes to ALL clients (including sender)
+        public async Task UpdateDocument(string user, string content)
         {
-            await Clients.All.SendAsync("ReceiveMessage", user, message);
+            await Clients.All.SendAsync("ReceiveDocumentUpdate", user, content);
         }
     }
 }
